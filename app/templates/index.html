@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card shadow-lg">
+    <div class="card-header bg-primary text-white">
+        <h2 class="mb-0">AI-Powered Resume Ranking</h2>
+    </div>
+    <div class="card-body">
+        <form method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="job_desc" class="form-label">Job Description</label>
+                <textarea class="form-control" id="job_desc" name="job_desc" rows="5" required
+                    placeholder="Enter job description, required skills, and qualifications..."></textarea>
+            </div>
+            
+            <div class="mb-4">
+                <label for="resumes" class="form-label">Upload Resumes (PDF, DOCX, TXT)</label>
+                <input class="form-control" type="file" id="resumes" name="resumes" multiple required>
+                <div class="form-text">Select multiple files using Ctrl+Click or Cmd+Click</div>
+            </div>
+            
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success btn-lg">
+                    <i class="fa-solid fa-ranking-star me-2"></i>Rank Resumes
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fa-solid fa-robot fa-3x text-primary mb-3"></i>
+                <h5>AI-Powered Analysis</h5>
+                <p>Advanced NLP techniques to evaluate resumes against job requirements</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fa-solid fa-gauge-high fa-3x text-success mb-3"></i>
+                <h5>Smart Ranking</h5>
+                <p>Objective scoring based on skills, experience, and relevance</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fa-solid fa-file-lines fa-3x text-info mb-3"></i>
+                <h5>Detailed Reports</h5>
+                <p>Export comprehensive reports with skill gap analysis</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
