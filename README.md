@@ -1,6 +1,6 @@
 # 🧠 AI-Powered Resume Ranker
 
-![Dashboard Screenshot](https://via.placeholder.com/800x400.png?text=AI+Resume+Ranker+Dashboard)
+![Dashboard Screenshot](/static/images/dashboard.png)
 
 **Screenshot of the Resume Ranking Dashboard**
 
