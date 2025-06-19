@@ -1,6 +1,6 @@
 # 🧠 AI-Powered Resume Ranker
 
-![Dashboard Screenshot](https://via.placeholder.com/800x400.png?text=AI+Resume+Ranker+Dashboard)
+![Dashboard Screenshot](/static/images/dashboard.png)
 
 **Screenshot of the Resume Ranking Dashboard**
 
@@ -69,15 +69,6 @@ Leveraging advanced **Natural Language Processing (NLP)** techniques, this tool 
 - HTML5 & CSS3
 - Bootstrap 5
 - JavaScript
-- (Chart.js for future data visualization)
-
----
-
-## 🚀 Deployment
-
-- Gunicorn (Production server)
-- Docker (Containerization)
-- Heroku / Google Cloud Platform (Hosting options)
 
 ---
 
