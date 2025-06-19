@@ -69,15 +69,6 @@ Leveraging advanced **Natural Language Processing (NLP)** techniques, this tool 
 - HTML5 & CSS3
 - Bootstrap 5
 - JavaScript
-- (Chart.js for future data visualization)
-
----
-
-## 🚀 Deployment
-
-- Gunicorn (Production server)
-- Docker (Containerization)
-- Heroku / Google Cloud Platform (Hosting options)
 
 ---
 
