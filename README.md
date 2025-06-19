@@ -1,6 +1,7 @@
 # 🧠 AI-Powered Resume Ranker
 
-![Dashboard Screenshot](/static/images/dashboard.png)
+![Dashboard Screenshot](app/static/images/dashboard.png)
+
 
 **Screenshot of the Resume Ranking Dashboard**
 
