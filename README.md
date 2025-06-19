@@ -83,8 +83,6 @@ Leveraging advanced **Natural Language Processing (NLP)** techniques, this tool 
 
 ### 📥 Step-by-Step Setup
 
-1. **Clone the repository:**
-
 ```bash
 git clone https://github.com/yourusername/resume-ranker.git
 cd resume-ranker
