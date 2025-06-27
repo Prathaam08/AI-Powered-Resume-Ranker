@@ -1,6 +1,7 @@
 # 🧠 AI-Powered Resume Ranker
 
-![Dashboard Screenshot](/static/images/dashboard.png)
+![Dashboard Screenshot](app/static/images/dashboard.png)
+
 
 **Screenshot of the Resume Ranking Dashboard**
 
@@ -81,8 +82,6 @@ Leveraging advanced **Natural Language Processing (NLP)** techniques, this tool 
 - Virtual environment (recommended)
 
 ### 📥 Step-by-Step Setup
-
-1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/yourusername/resume-ranker.git
